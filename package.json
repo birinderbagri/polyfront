@@ -1,0 +1,16 @@
+{
+  "name": "polyfront-server",
+  "version": "1.0.0",
+  "description": "Serves the Polyfront web build and relays online matches over WebSockets.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
